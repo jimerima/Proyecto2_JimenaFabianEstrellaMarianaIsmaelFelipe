@@ -1,0 +1,43 @@
+id_servicio,nombre_servicio
+1,Acceso a la plataforma TEC Digital
+2,Activar cuentas de usuario
+3,Actualizar cursos a estudiantes
+4,Actualizar miembros de comunidades
+5,Agregar/cambiar asociación de estudiante a curso
+6,Agregar/cambiar asociación de profesor a curso
+7,Agregar/cambiar asociación de usuario a comunidad
+8,Agregar/cambiar asociación estudiante a curso Colegio Científico
+9,Agregar/cambiar asociación estudiante a curso FundaTEC
+10,Asignación de permisos especiales
+11,Atención personalizada a usuarios
+12,Cambiar información personal
+13,Cambio de contraseña
+14,Cambio de contraseña FundaTEC
+15,Carpeta Tareas
+16,Carpetas/Documentos
+17,Configuración de Comunidades/Cursos
+18,Control de plagio
+19,Copiado de contenidos
+20,Creación curso Colegio Científico
+21,Creación cursos FundaTEC
+22,Creación de comunidades
+23,Creación de curso
+24,Creación de usuarios
+25,Creación de usuarios FundaTEC
+26,Envío de comunicados a comunidades
+27,Envío de comunicados a lista seleccionada
+28,Evaluaciones
+29,Expediente estudiantil
+30,GAAP
+31,Gestor de Atributos
+32,Gestor de Consultas
+33,Gestor de inscripción
+34,Inclusiones
+35,No especificado
+36,Planes de Trabajo
+37,Prematrícula
+38,Problemas con correos
+39,Rúbricas
+40,Solicitud de capacitación
+41,Solicitud de información de la institución
+42,Solicitud de información de la plataforma
