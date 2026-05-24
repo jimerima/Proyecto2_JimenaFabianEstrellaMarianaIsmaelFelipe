@@ -1,0 +1,12 @@
+﻿id_usuario,nombre_usuario,tipo_organizacion
+1,Administrativo,Administrativo
+2,Administrativo FundaTEC,FundaTEC
+3,Director/Coordinador,Directivo
+4,Director/Coordinador Colegio Científico,Directivo
+5,Estudiante,Estudiante
+6,Estudiante Colegio Científico,Estudiante
+7,Estudiante FundaTEC,Estudiante
+8,Externo,Externo
+9,No especificado,No especificado
+10,Profesor,Docente
+11,Profesor FundaTEC,Docente
