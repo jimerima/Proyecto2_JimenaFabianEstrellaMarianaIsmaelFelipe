@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Version="29" AppVersion="5.9.8.18" ReadKey="readkey.YNIJXbReW4s=.rWiXKcn9ocaqAn6gxCviXQ==.+octetO9VSA+bp/byBryvhzElqgZnwGlWshCTPcJSYdLT3li1BIkcZnQ4p+Z9IZijyL4hmAY8Jb2MnPw7vpdZLfD3/E8+X6bG8XmDoAKBfU=.z8KOxaTrw2h663PmuXImCeQ7lgUBCq71OC9RGYGl9F8=." WriteKeyPublic="BgIAAACkAABSU0ExAAgAAAEAAQAVuii5sQ5Mv+du7DnfRdpG7B8wNSa+7aS4d8FD1zsGgEPZaZI1SR0r6xBQOIi/NFdi2jUVfZiO8vjgW6SG0HaHPcFZcwIdbYQ2FqDcXty1nSHQ/f8S6PcuT45ud2BXO3BwBzGEaCi+2A1f3Z+bpCypufQKtfUX4dvcVafXAWpe/4Sf4kvLS7uaAS+Tc7MGEt1YKpTzhZTFVrZ6NBAEUpzFdCvrRSXhknUVfmoRPZaX+a258hSq/jU56akOCfmgVrAwhz+FNKDBzoGYfgSUp7Fo4O6WUXmN758Ixi3gdwPC5WfSIlm1/CjkWWHlcyoL/MXhU3Yz6qVDUjc/e4tspU7B" StartModuleName="Main" DocumentationTableOrder="ByExecutionOrder" EditedBy="MAC\felip" LastEdited="2026-05-24T05:57:18.0280301Z" ComplexityLevel="Beginner" Signature="VPsKPduhpW6ZB8oUPY82HjSR7e6HYNmYdW9VAyQUq8A=">
+  <Modules>
+    <Module Name="Main" AutoRun="true" SelectedGroupName="Group 1">
+      <Groups>
+        <Group Name="Group 1" Left="10" Top="40">
+          <Tables>
+            <Table Name="dim_agente.csv" Left="1715" Top="440" Width="172" Height="193" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="id_agente" Width="86" />
+                    <MetaColumn OriginalName="nombre_agente" Width="92" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_agente.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_canal.csv" Left="1727" Top="219" Width="241" Height="211" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="id_canal" Width="77" />
+                    <MetaColumn OriginalName="nombre_canal" Width="88" />
+                    <MetaColumn OriginalName="tipo_canal" Width="88" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_canal.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_estado.csv" Left="1727" Top="24" Width="267" Height="171" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="estado_agrupado" Width="101" />
+                    <MetaColumn OriginalName="id_estado" Width="85" />
+                    <MetaColumn OriginalName="nombre_estado" Width="91" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_estado.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_prioridad.csv" Left="2561" Top="191" Width="280" Height="173" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="id_prioridad" Width="98" />
+                    <MetaColumn OriginalName="nivel_prioridad" Width="88" />
+                    <MetaColumn OriginalName="nombre_prioridad" Width="104" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_prioridad.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_servicio.csv" Left="2125" Top="7" Width="417" Height="292" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="categoria_servicio" Width="126" />
+                    <MetaColumn OriginalName="id_servicio" Width="89" />
+                    <MetaColumn OriginalName="nombre_servicio" Width="300" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_servicio.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_tiempo.csv" Left="1474" Top="638" Width="500" Height="300" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="anio" Width="33" />
+                    <MetaColumn OriginalName="dia" Width="26" />
+                    <MetaColumn OriginalName="Es_Fin_Semestre" Width="94" />
+                    <MetaColumn OriginalName="Es_Periodo_Matricula" Width="121" />
+                    <MetaColumn OriginalName="Fecha_completa" Width="93" />
+                    <MetaColumn OriginalName="hora" Width="34" />
+                    <MetaColumn OriginalName="mes" Width="31" />
+                    <MetaColumn OriginalName="minutos" Width="53" />
+                    <MetaColumn OriginalName="Nombre_mes" Width="79" />
+                    <MetaColumn OriginalName="RowNo" Width="134" />
+                    <MetaColumn OriginalName="Semestre_academico" Width="117" />
+                    <MetaColumn OriginalName="Trimestre" Width="57" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_tiempo.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_tipo.csv" Left="2556" Top="686" Width="153" Height="153" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="id_tipo" Width="71" />
+                    <MetaColumn OriginalName="nombre_tipo" Width="88" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_tipo.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="dim_usuario.csv" Left="2560" Top="379" Width="282" Height="284" IsMinimized="false" ActiveActionIndex="0" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Point" ThousandSeparator="Space" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="id_usuario" Width="89" />
+                    <MetaColumn OriginalName="nombre_usuario" Width="212" />
+                    <MetaColumn OriginalName="tipo_organizacion" Width="103" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\dim_usuario.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ImportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+            <Table Name="HistoricoTickets_TecDigital.csv" Left="1955" Top="947" Width="993" Height="585" IsMinimized="false" ActiveActionIndex="15" ViewMode="Table">
+              <Actions>
+                <ImportDelimitedTextAction DecimalSeparator="Comma" ThousandSeparator="Point" ShowParsingErrors="false" IgnoreQuoting="false" NumericValuesTreatmentOption="AlwaysAsNumbers" ColumnsDontHaveHeaders="false" LoadAllColumns="true" AddColumnsWhenRowsHaveMoreValuesThanHeaders="false">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="Agente_x0020_de_x0020_soporte" Width="107" />
+                    <MetaColumn OriginalName="Asunto" Width="120" />
+                    <MetaColumn OriginalName="Canal" Width="41" />
+                    <MetaColumn OriginalName="Estado" Width="51" />
+                    <MetaColumn OriginalName="ID" Width="36" />
+                    <MetaColumn OriginalName="Prioridad" Width="58" />
+                    <MetaColumn OriginalName="Resuelto" Width="127" Format="DateDDMMMYYYYHMMSSAMPM" FormatOrigin="Autodetected" />
+                    <MetaColumn OriginalName="Rol_x0020_de_x0020_usuario" Width="134" />
+                    <MetaColumn OriginalName="Servicio_x0020_relacionado" Width="265" />
+                    <MetaColumn OriginalName="Solicitado" Width="127" Format="DateDDMMMYYYYHMMSSAMPM" FormatOrigin="Autodetected" />
+                    <MetaColumn OriginalName="Tipo" Width="51" />
+                  </MetaColumns>
+                  <InputFileDefinition Mode="Single">
+                    <FileName Value="C:\Users\felip\Downloads\HistoricoTickets_TecDigital.csv" Type="Path" />
+                  </InputFileDefinition>
+                  <SkipLines Value="0" Type="Number" />
+                  <MaxLines Value="0" Type="Number" />
+                  <Separator SeparatorType="Semicolon" />
+                  <Encoding EncodingType="ANSI" />
+                </ImportDelimitedTextAction>
+                <AddColumnsAction ColumnExistsOption="Rename">
+                  <Columns>
+                    <NameExpressionPair Name="fecha_solicitud_lookup">
+                      <Expression Value="format([Solicitado], 'dd-MMM-yyyy')" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="fecha_resuelto_lookup">
+                      <Expression Value="format([Resuelto], 'dd-MMM-yyyy')" Type="Expression" />
+                    </NameExpressionPair>
+                  </Columns>
+                  <InsertPosition Position="Rightmost" />
+                </AddColumnsAction>
+                <ReplaceColumnsAction>
+                  <Columns>
+                    <NameExpressionPair Name="Prioridad">
+                      <Expression Value="if(isempty([Prioridad]) or [Prioridad] = &quot;'-&quot;, 'No especificado', [Prioridad])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Servicio relacionado">
+                      <Expression Value="if(isempty([Servicio relacionado]), 'No especificado', [Servicio relacionado])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Canal">
+                      <Expression Value="if(isempty([Canal]), 'No especificado', [Canal])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Tipo">
+                      <Expression Value="if(isempty([Tipo]), 'No especificado', [Tipo])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Estado">
+                      <Expression Value="if(isempty([Estado]), 'No especificado', [Estado])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Rol de usuario">
+                      <Expression Value="if(isempty([Rol de usuario]), 'No especificado', [Rol de usuario])" Type="Expression" />
+                    </NameExpressionPair>
+                    <NameExpressionPair Name="Agente de soporte">
+                      <Expression Value="if(isempty([Agente de soporte]), 'No especificado', [Agente de soporte])" Type="Expression" />
+                    </NameExpressionPair>
+                  </Columns>
+                </ReplaceColumnsAction>
+                <LookupAction LookupTableName="dim_tiempo.csv" SecondTableExists="true" ColumnName="fecha_solicitud_lookup" LookupColumnName="Fecha_completa" ReturnColumnName="RowNo" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_tiempo.csv" SecondTableExists="true" ColumnName="fecha_resuelto_lookup" LookupColumnName="Fecha_completa" ReturnColumnName="RowNo" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_agente.csv" SecondTableExists="true" ColumnName="Agente de soporte" LookupColumnName="nombre_agente" ReturnColumnName="id_agente" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_servicio.csv" SecondTableExists="true" ColumnName="Servicio relacionado" LookupColumnName="nombre_servicio" ReturnColumnName="id_servicio" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_canal.csv" SecondTableExists="true" ColumnName="Canal" LookupColumnName="nombre_canal" ReturnColumnName="id_canal" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_tipo.csv" SecondTableExists="true" ColumnName="Tipo" LookupColumnName="nombre_tipo" ReturnColumnName="id_tipo" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_prioridad.csv" SecondTableExists="true" ColumnName="Prioridad" LookupColumnName="nombre_prioridad" ReturnColumnName="id_prioridad" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_usuario.csv" SecondTableExists="true" ColumnName="Rol de usuario" LookupColumnName="nombre_usuario" ReturnColumnName="id_usuario" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <LookupAction LookupTableName="dim_estado.csv" SecondTableExists="true" ColumnName="Estado" LookupColumnName="nombre_estado" ReturnColumnName="id_estado" CreateNewColumn="false" ValueNotFoundOption="MakeEmpty" />
+                <AddColumnsAction ColumnExistsOption="Rename">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="tiempo_resolucion_horas" Width="140" />
+                  </MetaColumns>
+                  <Columns>
+                    <NameExpressionPair Name="tiempo_resolucion_horas">
+                      <Expression Value="if(isempty([Resuelto]), empty(), round(([Resuelto] - [Solicitado]) * 24, 2))" Type="Expression" />
+                    </NameExpressionPair>
+                  </Columns>
+                  <InsertPosition Position="Rightmost" />
+                </AddColumnsAction>
+                <AddColumnsAction ColumnExistsOption="Rename">
+                  <MetaColumns>
+                    <MetaColumn OriginalName="cumple_sla" Width="67" />
+                  </MetaColumns>
+                  <Columns>
+                    <NameExpressionPair Name="cumple_sla">
+                      <Expression Value="if(isempty([tiempo_resolucion_horas]), empty(), if([tiempo_resolucion_horas] &lt;= 4, 1, 0))" Type="Expression" />
+                    </NameExpressionPair>
+                  </Columns>
+                  <InsertPosition Position="Rightmost" />
+                </AddColumnsAction>
+                <RenameColumnsAction>
+                  <Names>
+                    <NamePair Name1="Estado" Name2="id_dim_estado" />
+                    <NamePair Name1="Rol de usuario" Name2="id_dim_usuario" />
+                    <NamePair Name1="Agente de soporte" Name2="id_dim_agente" />
+                    <NamePair Name1="Servicio relacionado" Name2="id_dim_servicio" />
+                    <NamePair Name1="Canal" Name2="id_dim_canal" />
+                    <NamePair Name1="Tipo" Name2="id_dim_tipo" />
+                    <NamePair Name1="Prioridad" Name2="id_dim_prioridad" />
+                    <NamePair Name1="fecha_solicitud_lookup" Name2="id_dim_tiempo_solicitud" />
+                    <NamePair Name1="fecha_resuelto_lookup" Name2="id_dim_tiempo_resuelto" />
+                  </Names>
+                </RenameColumnsAction>
+                <KeepRemoveColumnsAction Mode="Remove" FailIfColumnsNotFound="false">
+                  <ColumnNames>
+                    <Item>Solicitado</Item>
+                    <Item>Resuelto</Item>
+                  </ColumnNames>
+                </KeepRemoveColumnsAction>
+                <ExportDelimitedTextAction AutoStatus="true" DecimalSeparator="Point" WrapTextMode="Auto" DontWriteColumnHeaders="false" PreserveFormatting="true" ExportFileMode="Create" DontWriteBom="false" FileExistsOption="HaltProjectExecution">
+                  <FileName Value="C:\Users\felip\Downloads\fact_table.csv" Type="Path" />
+                  <Separator SeparatorType="Comma" />
+                  <Encoding EncodingType="UTF8" />
+                </ExportDelimitedTextAction>
+              </Actions>
+              <AnalysisView Version="2" AppVersion="5.9.8.18" LayoutMode="Filters" />
+            </Table>
+          </Tables>
+        </Group>
+      </Groups>
+      <Parameters />
+      <Report UseCustomFileNameForPdfExport="false" ShowPageBorders="true">
+        <Pages>
+          <Page Name="Page 1" IncludeInReport="true">
+            <ReportObjects />
+          </Page>
+        </Pages>
+        <PageSetup Orientation="Landscape" Margin="Narrow" Size="Letter" />
+      </Report>
+    </Module>
+  </Modules>
+  <ProtectedDataConnectors />
+  <Resources />
+</Project>
