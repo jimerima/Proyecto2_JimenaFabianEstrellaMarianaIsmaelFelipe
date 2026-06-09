@@ -166,4 +166,5 @@ Proyecto2_JimenaFabianEstrellaMarianaIsmaelFelipe/
 ## Recursos adicionales
 
 - **Grabación de la presentación (Google Drive):** https://drive.google.com/file/d/1CNe6JmRbf7cHf_faVX7zqfyKEzWSsJaS/view?usp=drivesdk
-- **Grabación de la presentación (OneDrive):** https://estudianteccrmy.sharepoint.com/:v:/g/personal/mar_rivera_estudiantec_cr/IQAYLuIZ7i7USpeIjxhiMA2AAcGeYwLJYMtvQGMTosbW5xk?e=j94AEg
+- **Grabación de la presentación (OneDrive):**
+https://estudianteccr-my.sharepoint.com/personal/mar_rivera_estudiantec_cr/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmar%5Frivera%5Festudiantec%5Fcr%2FDocuments%2FProyectoBI%2Fpresentaci%C3%B3n%5FTecDigital%2EMOV&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efba5d8db%2D796b%2D4ff1%2D8c37%2D1cad1aa55348
