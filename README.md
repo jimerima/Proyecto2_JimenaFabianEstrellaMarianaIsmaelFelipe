@@ -48,33 +48,19 @@ CSV exportado de Zendesk  →   EasyMorph (proceso ETL)   →   Power BI Dashboa
 3. **Carga:** Tablas dimensionales y tabla de hechos cargadas en MySQL (Data Warehouse definitivo).
 4. **Visualización:** Power BI conectado directamente al DW; dashboard con 5 pantallas analíticas.
 
-**Modelo dimensional — Esquema estrella:**
-
-| Tabla | Tipo |
-|---|---|
-| `fact_ticket` | Tabla de hechos (1 registro por ticket) |
-| `dim_tiempo` | Dimensión temporal con jerarquía académica TEC |
-| `dim_agente` | Agentes de soporte |
-| `dim_servicio` | Módulos y funcionalidades de la plataforma |
-| `dim_canal` | Medio de contacto del usuario |
-| `dim_tipo` | Clasificación operativa del ticket |
-| `dim_prioridad` | Nivel de urgencia |
-| `dim_usuario` | Rol e institución del solicitante |
-| `dim_estado` | Estado del ticket en su ciclo de vida |
-
----
+--
 
 ## Integrantes del equipo
 
-| Nombre | Carné
-|---|---|---|
-| Rivera Madrigal Jimena | 2023066336
-| Herrera Bermúdez Mariana | 2023800120
-| Martínez Camacho Fabián | 2023154879
-| Corrales Vargas Felipe | 2020035096
-| Argüello Morales Estrella | 2023161710
-| Soto Valdivia Ismael | 2019043735
----
+| Nombre | Carné|
+|---|---|
+| Rivera Madrigal Jimena | 2023066336|
+| Herrera Bermúdez Mariana | 2023800120|
+| Martínez Camacho Fabián | 2023154879|
+| Corrales Vargas Felipe | 2020035096|
+| Argüello Morales Estrella | 2023161710|
+| Soto Valdivia Ismael | 2019043735|
+--
 
 ## Herramientas utilizadas
 
