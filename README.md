@@ -48,7 +48,7 @@ CSV exportado de Zendesk  →   EasyMorph (proceso ETL)   →   Power BI Dashboa
 3. **Carga:** Tablas dimensionales y tabla de hechos cargadas en MySQL (Data Warehouse definitivo).
 4. **Visualización:** Power BI conectado directamente al DW; dashboard con 5 pantallas analíticas.
 
---
+---
 
 ## Integrantes del equipo
 
@@ -60,7 +60,7 @@ CSV exportado de Zendesk  →   EasyMorph (proceso ETL)   →   Power BI Dashboa
 | Corrales Vargas Felipe | 2020035096|
 | Argüello Morales Estrella | 2023161710|
 | Soto Valdivia Ismael | 2019043735|
---
+---
 
 ## Herramientas utilizadas
 
@@ -154,16 +154,16 @@ Proyecto2_JimenaFabianEstrellaMarianaIsmaelFelipe/
 │
 ├── ReporteDepartamento/ # Archivos originales proporcionados por TEC Digital
 │                                
-├── 📄 Dashboard_Proyecto2_BI.pbix       # Dashboard interactivo en Power BI
-├── 📄 Exposicion_BI.pdf                 # Presentación del proyecto
-├── 📄 InformeProyecto_TecDigital.pdf    # Informe técnico completo
-├── 📄 TD-60-2026_Aval para uso de inform... # Aval institucional del TEC Digital
-└── 📄 README.md                         # Este archivo
+├── Dashboard_Proyecto2_BI.pbix       # Dashboard interactivo en Power BI
+├── Exposicion_BI.pdf                 # Presentación del proyecto
+├── InformeProyecto_TecDigital.pdf    # Informe técnico completo
+├── TD-60-2026_Aval para uso de inform... # Aval institucional del TEC Digital
+└── README.md                         # Este archivo
 ```
 
 ---
 
-## 📎 Recursos adicionales
+## Recursos adicionales
 
 - **Grabación de la presentación (Google Drive):** https://drive.google.com/file/d/1CNe6JmRbf7cHf_faVX7zqfyKEzWSsJaS/view?usp=drivesdk
 - **Grabación de la presentación (OneDrive):** https://estudianteccrmy.sharepoint.com/:v:/g/personal/mar_rivera_estudiantec_cr/IQAYLuIZ7i7USpeIjxhiMA2AAcGeYwLJYMtvQGMTosbW5xk?e=j94AEg
